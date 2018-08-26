@@ -15,6 +15,9 @@
 		B6589B6A2129D05A003E1205 /* FeelingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B692129D05A003E1205 /* FeelingTests.swift */; };
 		B6589B752129D05A003E1205 /* FeelingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B742129D05A003E1205 /* FeelingUITests.swift */; };
 		B6589B862129D9CF003E1205 /* RoudedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B852129D9CF003E1205 /* RoudedButton.swift */; };
+		B6589B8A212A1A2C003E1205 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B89212A1A2C003E1205 /* SignUpViewController.swift */; };
+		B6589B8C2132F098003E1205 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B8B2132F098003E1205 /* LoginViewController.swift */; };
+		B6589B8E21330BCB003E1205 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B8D21330BCB003E1205 /* LocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B6589B742129D05A003E1205 /* FeelingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingUITests.swift; sourceTree = "<group>"; };
 		B6589B762129D05A003E1205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6589B852129D9CF003E1205 /* RoudedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoudedButton.swift; sourceTree = "<group>"; };
+		B6589B89212A1A2C003E1205 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B6589B8B2132F098003E1205 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B6589B8D21330BCB003E1205 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +144,6 @@
 		B6589B832129D9A1003E1205 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B6589B562129D052003E1205 /* ViewController.swift */,
 				B6589B582129D052003E1205 /* Main.storyboard */,
 				B6589B5D2129D05A003E1205 /* LaunchScreen.storyboard */,
 			);
@@ -148,6 +153,10 @@
 		B6589B842129D9A8003E1205 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B6589B562129D052003E1205 /* ViewController.swift */,
+				B6589B89212A1A2C003E1205 /* SignUpViewController.swift */,
+				B6589B8B2132F098003E1205 /* LoginViewController.swift */,
+				B6589B8D21330BCB003E1205 /* LocationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,6 +294,9 @@
 			files = (
 				B6589B862129D9CF003E1205 /* RoudedButton.swift in Sources */,
 				B6589B572129D052003E1205 /* ViewController.swift in Sources */,
+				B6589B8A212A1A2C003E1205 /* SignUpViewController.swift in Sources */,
+				B6589B8E21330BCB003E1205 /* LocationViewController.swift in Sources */,
+				B6589B8C2132F098003E1205 /* LoginViewController.swift in Sources */,
 				B6589B552129D052003E1205 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
