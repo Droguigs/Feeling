@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CCFC57987AF6531F6C33973 /* Pods_FeelingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359D4B6E2A12D17DE7F34A8C /* Pods_FeelingUITests.framework */; };
+		A8B0B5BB5592DB156FEBBA40 /* Pods_Feeling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C392B96CEC0F4564053D89BF /* Pods_Feeling.framework */; };
 		B6589B552129D052003E1205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B542129D052003E1205 /* AppDelegate.swift */; };
 		B6589B572129D052003E1205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B562129D052003E1205 /* ViewController.swift */; };
 		B6589B5A2129D052003E1205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6589B582129D052003E1205 /* Main.storyboard */; };
@@ -18,6 +20,7 @@
 		B6589B8A212A1A2C003E1205 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B89212A1A2C003E1205 /* SignUpViewController.swift */; };
 		B6589B8C2132F098003E1205 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B8B2132F098003E1205 /* LoginViewController.swift */; };
 		B6589B8E21330BCB003E1205 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B8D21330BCB003E1205 /* LocationViewController.swift */; };
+		D0F36BB3E1CE2E07B7D2BB7C /* Pods_FeelingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39EEA11F6811566C35C89E5 /* Pods_FeelingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		359D4B6E2A12D17DE7F34A8C /* Pods_FeelingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D597D38F6B6590AC6B69B3B /* Pods-FeelingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelingUITests/Pods-FeelingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73BCC9A62DE65B36CC8EC52E /* Pods-Feeling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeling.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feeling/Pods-Feeling.release.xcconfig"; sourceTree = "<group>"; };
+		9A231B941D2FCA939C142F2E /* Pods-Feeling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeling.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feeling/Pods-Feeling.debug.xcconfig"; sourceTree = "<group>"; };
+		B39EEA11F6811566C35C89E5 /* Pods_FeelingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6589B512129D052003E1205 /* Feeling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feeling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6589B542129D052003E1205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6589B562129D052003E1205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +63,10 @@
 		B6589B89212A1A2C003E1205 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B6589B8B2132F098003E1205 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B6589B8D21330BCB003E1205 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		C0775D23AD9762E964ADCF9E /* Pods-FeelingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelingTests/Pods-FeelingTests.release.xcconfig"; sourceTree = "<group>"; };
+		C392B96CEC0F4564053D89BF /* Pods_Feeling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feeling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4352E72E8558E67C93520FD /* Pods-FeelingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelingUITests/Pods-FeelingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC8BE3E5835CB824CFCD2E7F /* Pods-FeelingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeelingTests/Pods-FeelingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B0B5BB5592DB156FEBBA40 /* Pods_Feeling.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F36BB3E1CE2E07B7D2BB7C /* Pods_FeelingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCFC57987AF6531F6C33973 /* Pods_FeelingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E01483CB4D931BC95234F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C392B96CEC0F4564053D89BF /* Pods_Feeling.framework */,
+				B39EEA11F6811566C35C89E5 /* Pods_FeelingTests.framework */,
+				359D4B6E2A12D17DE7F34A8C /* Pods_FeelingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EB366A03F0D15A0B7E68CB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A231B941D2FCA939C142F2E /* Pods-Feeling.debug.xcconfig */,
+				73BCC9A62DE65B36CC8EC52E /* Pods-Feeling.release.xcconfig */,
+				EC8BE3E5835CB824CFCD2E7F /* Pods-FeelingTests.debug.xcconfig */,
+				C0775D23AD9762E964ADCF9E /* Pods-FeelingTests.release.xcconfig */,
+				5D597D38F6B6590AC6B69B3B /* Pods-FeelingUITests.debug.xcconfig */,
+				D4352E72E8558E67C93520FD /* Pods-FeelingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B6589B482129D052003E1205 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +127,8 @@
 				B6589B682129D05A003E1205 /* FeelingTests */,
 				B6589B732129D05A003E1205 /* FeelingUITests */,
 				B6589B522129D052003E1205 /* Products */,
+				3EB366A03F0D15A0B7E68CB7 /* Pods */,
+				1E01483CB4D931BC95234F32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6589B792129D05A003E1205 /* Build configuration list for PBXNativeTarget "Feeling" */;
 			buildPhases = (
+				26770F8B83EC084DE46A18D8 /* [CP] Check Pods Manifest.lock */,
 				B6589B4D2129D052003E1205 /* Sources */,
 				B6589B4E2129D052003E1205 /* Frameworks */,
 				B6589B4F2129D052003E1205 /* Resources */,
+				9C00B79618CBA432E1EA3153 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6589B7C2129D05A003E1205 /* Build configuration list for PBXNativeTarget "FeelingTests" */;
 			buildPhases = (
+				DC3395C71A6E6331FE6AAC9B /* [CP] Check Pods Manifest.lock */,
 				B6589B612129D05A003E1205 /* Sources */,
 				B6589B622129D05A003E1205 /* Frameworks */,
 				B6589B632129D05A003E1205 /* Resources */,
@@ -203,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6589B7F2129D05A003E1205 /* Build configuration list for PBXNativeTarget "FeelingUITests" */;
 			buildPhases = (
+				C7BE79F449BD5F141800E3F5 /* [CP] Check Pods Manifest.lock */,
 				B6589B6C2129D05A003E1205 /* Sources */,
 				B6589B6D2129D05A003E1205 /* Frameworks */,
 				B6589B6E2129D05A003E1205 /* Resources */,
@@ -286,6 +330,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26770F8B83EC084DE46A18D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Feeling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C00B79618CBA432E1EA3153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Feeling/Pods-Feeling-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feeling/Pods-Feeling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BE79F449BD5F141800E3F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3395C71A6E6331FE6AAC9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeelingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6589B4D2129D052003E1205 /* Sources */ = {
@@ -468,6 +591,7 @@
 		};
 		B6589B7A2129D05A003E1205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A231B941D2FCA939C142F2E /* Pods-Feeling.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +610,7 @@
 		};
 		B6589B7B2129D05A003E1205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BCC9A62DE65B36CC8EC52E /* Pods-Feeling.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +629,7 @@
 		};
 		B6589B7D2129D05A003E1205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8BE3E5835CB824CFCD2E7F /* Pods-FeelingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +650,7 @@
 		};
 		B6589B7E2129D05A003E1205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0775D23AD9762E964ADCF9E /* Pods-FeelingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +671,7 @@
 		};
 		B6589B802129D05A003E1205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D597D38F6B6590AC6B69B3B /* Pods-FeelingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +691,7 @@
 		};
 		B6589B812129D05A003E1205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4352E72E8558E67C93520FD /* Pods-FeelingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
