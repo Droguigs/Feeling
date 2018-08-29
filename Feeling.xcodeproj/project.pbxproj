@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		2CCFC57987AF6531F6C33973 /* Pods_FeelingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359D4B6E2A12D17DE7F34A8C /* Pods_FeelingUITests.framework */; };
 		A8B0B5BB5592DB156FEBBA40 /* Pods_Feeling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C392B96CEC0F4564053D89BF /* Pods_Feeling.framework */; };
+		B602DE3621333D0900CBFA64 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B602DE3521333D0900CBFA64 /* CoreLocation.framework */; };
 		B6589B552129D052003E1205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B542129D052003E1205 /* AppDelegate.swift */; };
-		B6589B572129D052003E1205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B562129D052003E1205 /* ViewController.swift */; };
 		B6589B5A2129D052003E1205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6589B582129D052003E1205 /* Main.storyboard */; };
 		B6589B5C2129D05A003E1205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6589B5B2129D05A003E1205 /* Assets.xcassets */; };
 		B6589B5F2129D05A003E1205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6589B5D2129D05A003E1205 /* LaunchScreen.storyboard */; };
@@ -20,6 +20,10 @@
 		B6589B8A212A1A2C003E1205 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B89212A1A2C003E1205 /* SignUpViewController.swift */; };
 		B6589B8C2132F098003E1205 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B8B2132F098003E1205 /* LoginViewController.swift */; };
 		B6589B8E21330BCB003E1205 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6589B8D21330BCB003E1205 /* LocationViewController.swift */; };
+		B6CC816821364266008BDF9F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC816721364266008BDF9F /* MainViewController.swift */; };
+		B6CC816B2136E653008BDF9F /* PartyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC81692136E653008BDF9F /* PartyListViewController.swift */; };
+		B6CC81702136F772008BDF9F /* PartyListCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CC816F2136F772008BDF9F /* PartyListCellViewController.xib */; };
+		B6CC8172213715B0008BDF9F /* CreatePartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC8171213715B0008BDF9F /* CreatePartyViewController.swift */; };
 		D0F36BB3E1CE2E07B7D2BB7C /* Pods_FeelingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39EEA11F6811566C35C89E5 /* Pods_FeelingTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +50,9 @@
 		73BCC9A62DE65B36CC8EC52E /* Pods-Feeling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeling.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feeling/Pods-Feeling.release.xcconfig"; sourceTree = "<group>"; };
 		9A231B941D2FCA939C142F2E /* Pods-Feeling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feeling.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feeling/Pods-Feeling.debug.xcconfig"; sourceTree = "<group>"; };
 		B39EEA11F6811566C35C89E5 /* Pods_FeelingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeelingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B602DE3521333D0900CBFA64 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B6589B512129D052003E1205 /* Feeling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feeling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6589B542129D052003E1205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6589B562129D052003E1205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6589B592129D052003E1205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6589B5B2129D05A003E1205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6589B5E2129D05A003E1205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +67,10 @@
 		B6589B89212A1A2C003E1205 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B6589B8B2132F098003E1205 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B6589B8D21330BCB003E1205 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		B6CC816721364266008BDF9F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B6CC81692136E653008BDF9F /* PartyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyListViewController.swift; sourceTree = "<group>"; };
+		B6CC816F2136F772008BDF9F /* PartyListCellViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PartyListCellViewController.xib; sourceTree = "<group>"; };
+		B6CC8171213715B0008BDF9F /* CreatePartyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePartyViewController.swift; sourceTree = "<group>"; };
 		C0775D23AD9762E964ADCF9E /* Pods-FeelingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelingTests/Pods-FeelingTests.release.xcconfig"; sourceTree = "<group>"; };
 		C392B96CEC0F4564053D89BF /* Pods_Feeling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feeling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4352E72E8558E67C93520FD /* Pods-FeelingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeelingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeelingUITests/Pods-FeelingUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B602DE3621333D0900CBFA64 /* CoreLocation.framework in Frameworks */,
 				A8B0B5BB5592DB156FEBBA40 /* Pods_Feeling.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +109,7 @@
 		1E01483CB4D931BC95234F32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B602DE3521333D0900CBFA64 /* CoreLocation.framework */,
 				C392B96CEC0F4564053D89BF /* Pods_Feeling.framework */,
 				B39EEA11F6811566C35C89E5 /* Pods_FeelingTests.framework */,
 				359D4B6E2A12D17DE7F34A8C /* Pods_FeelingUITests.framework */,
@@ -148,7 +158,6 @@
 				B6589B842129D9A8003E1205 /* Controller */,
 				B6589B832129D9A1003E1205 /* View */,
 				B6589B822129D98E003E1205 /* Model */,
-				B6589B542129D052003E1205 /* AppDelegate.swift */,
 				B6589B5B2129D05A003E1205 /* Assets.xcassets */,
 				B6589B602129D05A003E1205 /* Info.plist */,
 			);
@@ -176,6 +185,7 @@
 		B6589B822129D98E003E1205 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B6589B542129D052003E1205 /* AppDelegate.swift */,
 				B6589B852129D9CF003E1205 /* RoudedButton.swift */,
 			);
 			path = Model;
@@ -186,6 +196,7 @@
 			children = (
 				B6589B582129D052003E1205 /* Main.storyboard */,
 				B6589B5D2129D05A003E1205 /* LaunchScreen.storyboard */,
+				B6CC816F2136F772008BDF9F /* PartyListCellViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,10 +204,12 @@
 		B6589B842129D9A8003E1205 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B6589B562129D052003E1205 /* ViewController.swift */,
 				B6589B89212A1A2C003E1205 /* SignUpViewController.swift */,
 				B6589B8B2132F098003E1205 /* LoginViewController.swift */,
 				B6589B8D21330BCB003E1205 /* LocationViewController.swift */,
+				B6CC816721364266008BDF9F /* MainViewController.swift */,
+				B6CC81692136E653008BDF9F /* PartyListViewController.swift */,
+				B6CC8171213715B0008BDF9F /* CreatePartyViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,6 +325,7 @@
 				B6589B5F2129D05A003E1205 /* LaunchScreen.storyboard in Resources */,
 				B6589B5C2129D05A003E1205 /* Assets.xcassets in Resources */,
 				B6589B5A2129D052003E1205 /* Main.storyboard in Resources */,
+				B6CC81702136F772008BDF9F /* PartyListCellViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,11 +430,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6589B862129D9CF003E1205 /* RoudedButton.swift in Sources */,
-				B6589B572129D052003E1205 /* ViewController.swift in Sources */,
 				B6589B8A212A1A2C003E1205 /* SignUpViewController.swift in Sources */,
 				B6589B8E21330BCB003E1205 /* LocationViewController.swift in Sources */,
+				B6CC816821364266008BDF9F /* MainViewController.swift in Sources */,
 				B6589B8C2132F098003E1205 /* LoginViewController.swift in Sources */,
+				B6CC8172213715B0008BDF9F /* CreatePartyViewController.swift in Sources */,
 				B6589B552129D052003E1205 /* AppDelegate.swift in Sources */,
+				B6CC816B2136E653008BDF9F /* PartyListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

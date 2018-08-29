@@ -7,13 +7,20 @@
 //
 
 import UIKit
+import CoreLocation
 
-class LocationViewController: UIViewController {
+class LocationViewController: UIViewController, CLLocationManagerDelegate {
+    
+    var manager = CLLocationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        manager.delegate = self
+        manager.desiredAccuracy = kCLLocationAccuracyKilometer
+        manager.requestWhenInUseAuthorization()
+        manager.startUpdatingLocation()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +28,12 @@ class LocationViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func ActivateLocation(_ sender: UISwitch) {
+        if sender.isOn {
+            performSegue(withIdentifier: "LocationSegue", sender: self)
+        }
+        
+        
     }
-    */
-
+    
 }

@@ -11,15 +11,12 @@ import UIKit
 class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
-        
     }
     
     override func didReceiveMemoryWarning() {
         
     }
     
-    @IBAction func LocationSwitch(_ sender: UISwitch) {
-        
-    }
+    
     
 }
