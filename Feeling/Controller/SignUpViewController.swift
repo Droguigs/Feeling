@@ -23,23 +23,23 @@ class SignUpViewController: UIViewController {
     
     func setupButtons(){
         nameTextField.layer.borderWidth = 2
-        nameTextField.layer.borderColor = UIColor.yellow.cgColor
+        nameTextField.layer.borderColor = UIColor.goldYellow().cgColor
         nameTextField.layer.cornerRadius = 5
         
         ageTextField.layer.borderWidth = 2
-        ageTextField.layer.borderColor = UIColor.yellow.cgColor
+        ageTextField.layer.borderColor = UIColor.goldYellow().cgColor
         ageTextField.layer.cornerRadius = 5
         
         emailTextField.layer.borderWidth = 2
-        emailTextField.layer.borderColor = UIColor.yellow.cgColor
+        emailTextField.layer.borderColor = UIColor.goldYellow().cgColor
         emailTextField.layer.cornerRadius = 5
         
         passwordTextField.layer.borderWidth = 2
-        passwordTextField.layer.borderColor = UIColor.yellow.cgColor
+        passwordTextField.layer.borderColor = UIColor.goldYellow().cgColor
         passwordTextField.layer.cornerRadius = 5
         
         password2TextField.layer.borderWidth = 2
-        password2TextField.layer.borderColor = UIColor.yellow.cgColor
+        password2TextField.layer.borderColor = UIColor.goldYellow().cgColor
         password2TextField.layer.cornerRadius = 5
     }
     

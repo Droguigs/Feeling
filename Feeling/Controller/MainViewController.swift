@@ -11,13 +11,19 @@ import UIKit
 class MainViewController: UIViewController {
 
     override func viewDidLoad() {
+        setupNavigationBar()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-
+    func setupNavigationBar(){
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+        self.navigationController?.view.backgroundColor = .clear
+    }
     /*
     // MARK: - Navigation
 
