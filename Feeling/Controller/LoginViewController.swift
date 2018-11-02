@@ -23,12 +23,12 @@ class LoginViewController: UIViewController, EZFormDelegate {
     override func didReceiveMemoryWarning() { }
     
     private func setupTextFields(){
-        self.emailTextField.attributedPlaceholder = NSAttributedString(string: "E-MAIL", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
+        self.emailTextField.attributedPlaceholder = NSAttributedString(string: "E-MAIL", attributes: [NSAttributedString.Key.foregroundColor: UIColor.goldYellow()])
         emailTextField.layer.borderWidth = 2
         emailTextField.layer.borderColor = UIColor.goldYellow().cgColor
         emailTextField.layer.cornerRadius = 5
         
-        self.passwordTextField.attributedPlaceholder = NSAttributedString(string: "SENHA", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
+        self.passwordTextField.attributedPlaceholder = NSAttributedString(string: "SENHA", attributes: [NSAttributedString.Key.foregroundColor: UIColor.goldYellow()])
         passwordTextField.layer.borderWidth = 2
         passwordTextField.layer.borderColor = UIColor.goldYellow().cgColor
         passwordTextField.layer.cornerRadius = 5

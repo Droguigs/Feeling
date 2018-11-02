@@ -307,13 +307,16 @@
 				TargetAttributes = {
 					B6589B502129D052003E1205 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 					B6589B642129D05A003E1205 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = B6589B502129D052003E1205;
 					};
 					B6589B6F2129D05A003E1205 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = B6589B502129D052003E1205;
 					};
 				};
@@ -649,7 +652,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drogs.Feeling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -668,7 +671,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drogs.Feeling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -688,7 +691,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drogs.FeelingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feeling.app/Feeling";
 			};
@@ -709,7 +712,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drogs.FeelingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feeling.app/Feeling";
 			};
@@ -729,7 +732,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drogs.FeelingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Feeling;
 			};
@@ -749,7 +752,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Drogs.FeelingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Feeling;
 			};
