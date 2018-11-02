@@ -24,6 +24,7 @@ class PartyListViewController: UIViewController {
         tableView.register(PartyListCellViewController.nib, forCellReuseIdentifier: PartyListCellViewController.identifier)
     }
     
+    
 }
 
 extension PartyListViewController: UITableViewDelegate, UITableViewDataSource{
@@ -36,12 +37,13 @@ extension PartyListViewController: UITableViewDelegate, UITableViewDataSource{
         
         cell = tableView.dequeueReusableCell(withIdentifier: PartyListCellViewController.identifier, for: indexPath) as? PartyListCellViewController
         cell?.layer.backgroundColor = UIColor.clear.cgColor
+        cell?.setupPartyDetails(partyImage: UIImage(named: "Doggo"), partyNameLabel: "Patati Patata Night Fever" , date: Date())
         return cell!
         
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 280
+        return UITableViewAutomaticDimension
     }
     
 }

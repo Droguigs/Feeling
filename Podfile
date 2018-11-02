@@ -4,6 +4,7 @@ target 'Feeling' do
 
   # Pods for Feeli
   pod 'Moya', '~> 11.0'
+  pod 'EZForm', '~> 1.1'
 
   target 'FeelingTests' do
     inherit! :search_paths

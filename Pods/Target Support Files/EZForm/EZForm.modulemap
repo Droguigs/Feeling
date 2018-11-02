@@ -1,0 +1,6 @@
+framework module EZForm {
+  umbrella header "EZForm-umbrella.h"
+
+  export *
+  module * { export * }
+}

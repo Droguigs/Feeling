@@ -16,16 +16,20 @@ class PartyListCellViewController: UITableViewCell{
     @IBOutlet weak var partyTime: UILabel!
     @IBOutlet weak var partyDescriptionText: UITextView!
     
+    @IBOutlet weak var descriptionConstraint: NSLayoutConstraint!
+    
     var totalHeight: CGFloat = 100
+    
+    let dayFormatter = DateFormatter()
+    let timeFormatter = DateFormatter()
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        let fixedWidth = partyDescriptionText.frame.size.width
-        let newSize = partyDescriptionText.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat.greatestFiniteMagnitude))
-        partyDescriptionText.frame.size = CGSize(width: max(newSize.width, fixedWidth), height: newSize.height)
+        dayFormatter.dateFormat = "dd/MM/YYYY"
+        timeFormatter.dateFormat = "hh:mm"
         
-        self.totalHeight = 160 + newSize.height
+        _ = reloadComponentsSize()
     }
     
     func setupPartyDetails(partyImage: UIImage?, partyNameLabel: String, date: Date){
@@ -33,6 +37,8 @@ class PartyListCellViewController: UITableViewCell{
         self.partyNameLabel.text = partyNameLabel
         
         //Fix date/time details and set it to date/timeLabel
+        partyDay.text = "DIA - " + dayFormatter.string(from: date)
+        partyTime.text = "HORA - " + timeFormatter.string(from: date)
         
     }
     
@@ -41,7 +47,9 @@ class PartyListCellViewController: UITableViewCell{
         let newSize = partyDescriptionText.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat.greatestFiniteMagnitude))
         partyDescriptionText.frame.size = CGSize(width: max(newSize.width, fixedWidth), height: newSize.height)
         
-        self.totalHeight = 160 + newSize.height
+        self.totalHeight = 176 + newSize.height
+        
+        descriptionConstraint.constant = newSize.height
         
         return totalHeight
     }

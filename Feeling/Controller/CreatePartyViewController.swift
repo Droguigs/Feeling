@@ -22,18 +22,22 @@ class CreatePartyViewController: UIViewController {
     }
 
     func setupButtons(){
+        nameText.attributedPlaceholder = NSAttributedString(string: "NOME", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
         nameText.layer.borderWidth = 2
         nameText.layer.borderColor = UIColor.goldYellow().cgColor
         nameText.layer.cornerRadius = 5
         
+        cpfText.attributedPlaceholder = NSAttributedString(string: "CPF/CNPJ", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
         cpfText.layer.borderWidth = 2
         cpfText.layer.borderColor = UIColor.goldYellow().cgColor
         cpfText.layer.cornerRadius = 5
         
+        placeText.attributedPlaceholder = NSAttributedString(string: "LOCAL/HORÁRIO", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
         placeText.layer.borderWidth = 2
         placeText.layer.borderColor = UIColor.goldYellow().cgColor
         placeText.layer.cornerRadius = 5
         
+        valueText.attributedPlaceholder = NSAttributedString(string: "VALORES (ÁREAS)", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
         valueText.layer.borderWidth = 2
         valueText.layer.borderColor = UIColor.goldYellow().cgColor
         valueText.layer.cornerRadius = 5

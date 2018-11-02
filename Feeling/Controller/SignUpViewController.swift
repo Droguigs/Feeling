@@ -22,25 +22,30 @@ class SignUpViewController: UIViewController {
     }
     
     func setupButtons(){
-        nameTextField.layer.borderWidth = 2
-        nameTextField.layer.borderColor = UIColor.goldYellow().cgColor
-        nameTextField.layer.cornerRadius = 5
+        self.nameTextField.attributedPlaceholder = NSAttributedString(string: "NOME", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
+        self.nameTextField.layer.borderWidth = 2
+        self.nameTextField.layer.borderColor = UIColor.goldYellow().cgColor
+        self.nameTextField.layer.cornerRadius = 5
         
-        ageTextField.layer.borderWidth = 2
-        ageTextField.layer.borderColor = UIColor.goldYellow().cgColor
-        ageTextField.layer.cornerRadius = 5
+        self.ageTextField.attributedPlaceholder = NSAttributedString(string: "IDADE", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
+        self.ageTextField.layer.borderWidth = 2
+        self.ageTextField.layer.borderColor = UIColor.goldYellow().cgColor
+        self.ageTextField.layer.cornerRadius = 5
         
-        emailTextField.layer.borderWidth = 2
-        emailTextField.layer.borderColor = UIColor.goldYellow().cgColor
-        emailTextField.layer.cornerRadius = 5
+        self.emailTextField.attributedPlaceholder = NSAttributedString(string: "E-MAIL", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
+        self.emailTextField.layer.borderWidth = 2
+        self.emailTextField.layer.borderColor = UIColor.goldYellow().cgColor
+        self.emailTextField.layer.cornerRadius = 5
         
-        passwordTextField.layer.borderWidth = 2
-        passwordTextField.layer.borderColor = UIColor.goldYellow().cgColor
-        passwordTextField.layer.cornerRadius = 5
+        self.passwordTextField.attributedPlaceholder = NSAttributedString(string: "SENHA", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
+        self.passwordTextField.layer.borderWidth = 2
+        self.passwordTextField.layer.borderColor = UIColor.goldYellow().cgColor
+        self.passwordTextField.layer.cornerRadius = 5
         
-        password2TextField.layer.borderWidth = 2
-        password2TextField.layer.borderColor = UIColor.goldYellow().cgColor
-        password2TextField.layer.cornerRadius = 5
+        self.password2TextField.attributedPlaceholder = NSAttributedString(string: "CONFIRMAR SENHA", attributes: [NSAttributedStringKey.foregroundColor: UIColor.goldYellow()])
+        self.password2TextField.layer.borderWidth = 2
+        self.password2TextField.layer.borderColor = UIColor.goldYellow().cgColor
+        self.password2TextField.layer.cornerRadius = 5
     }
     
     
